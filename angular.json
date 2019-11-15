@@ -21,7 +21,8 @@
             "aot": false,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/api"
             ],
             "styles": [
               "src/styles.css"
@@ -89,7 +90,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "~bootstrap/dist/css/bootstrap.min.css",
+              "~font-awesome/css/font-awesome.min.css"
             ],
             "scripts": []
           }
