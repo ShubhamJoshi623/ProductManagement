@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "forms-demo": {
+=======
+    "testapp1": {
+>>>>>>> 73daed338854e25ba0a727ab533bfc020bef20d2
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/forms-demo",
+=======
+            "outputPath": "dist/testapp1",
+>>>>>>> 73daed338854e25ba0a727ab533bfc020bef20d2
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -21,12 +29,19 @@
             "aot": false,
             "assets": [
               "src/favicon.ico",
+<<<<<<< HEAD
               "src/assets"
             ],
             "styles": [
               "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               
+=======
+              "src/assets",
+              "src/api"
+            ],
+            "styles": [
+>>>>>>> 73daed338854e25ba0a727ab533bfc020bef20d2
               "src/styles.css"
             ],
             "scripts": []
@@ -66,18 +81,30 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "forms-demo:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "forms-demo:build:production"
+=======
+            "browserTarget": "testapp1:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "testapp1:build:production"
+>>>>>>> 73daed338854e25ba0a727ab533bfc020bef20d2
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "forms-demo:build"
+=======
+            "browserTarget": "testapp1:build"
+>>>>>>> 73daed338854e25ba0a727ab533bfc020bef20d2
           }
         },
         "test": {
@@ -92,9 +119,15 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
+=======
+              "src/styles.css",
+              "~bootstrap/dist/css/bootstrap.min.css",
+              "~font-awesome/css/font-awesome.min.css"
+>>>>>>> 73daed338854e25ba0a727ab533bfc020bef20d2
             ],
             "scripts": []
           }
@@ -116,16 +149,29 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
+<<<<<<< HEAD
             "devServerTarget": "forms-demo:serve"
           },
           "configurations": {
             "production": {
               "devServerTarget": "forms-demo:serve:production"
+=======
+            "devServerTarget": "testapp1:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "testapp1:serve:production"
+>>>>>>> 73daed338854e25ba0a727ab533bfc020bef20d2
             }
           }
         }
       }
+<<<<<<< HEAD
     }
   },
   "defaultProject": "forms-demo"
+=======
+    }},
+  "defaultProject": "testapp1"
+>>>>>>> 73daed338854e25ba0a727ab533bfc020bef20d2
 }

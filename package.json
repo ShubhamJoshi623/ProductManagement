@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "forms-demo",
+=======
+  "name": "testapp1",
+>>>>>>> 73daed338854e25ba0a727ab533bfc020bef20d2
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -20,7 +24,11 @@
     "@angular/platform-browser-dynamic": "~8.2.7",
     "@angular/router": "~8.2.7",
     "bootstrap": "^4.3.1",
+<<<<<<< HEAD
     "ngx-bootstrap": "^5.2.0",
+=======
+    "font-awesome": "^4.7.0",
+>>>>>>> 73daed338854e25ba0a727ab533bfc020bef20d2
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"

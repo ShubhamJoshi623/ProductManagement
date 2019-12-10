@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # FormsDemo
+=======
+# Testapp1
+>>>>>>> 73daed338854e25ba0a727ab533bfc020bef20d2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
 
